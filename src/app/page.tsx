@@ -45,7 +45,7 @@ export default function LandingPage() {
 
       <div id="hero" data-section="hero">
         <HeroBillboardCarousel
-          title="Kobe Prime"
+          title="Okawa Kobe Prime Steak-House "
           description="Experience the artistry of authentic Japanese wagyu beef, expertly prepared by master chefs. Premium A5 grade beef grilled to perfection right before your eyes."
           tag="Premium Wagyu"
           tagIcon={Flame}
