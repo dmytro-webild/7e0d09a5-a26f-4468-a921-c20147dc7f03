@@ -57,11 +57,11 @@ export default function LandingPage() {
           ]}
           buttonAnimation="slide-up"
           mediaItems={[
-            { imageSrc: "http://img.b2bpic.net/free-photo/bison-nature-black-white_23-2151717764.jpg", imageAlt: "Premium A5 Wagyu Beef" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/waitress-near-display-case-with-tartines_23-2147830513.jpg", imageAlt: "Elegant Steakhouse Dining" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/man-chef-holding-big-part-meat-restaurant-kitchen_1303-32147.jpg", imageAlt: "Teppanyaki Chef Performance" },
+            { imageSrc: "http://img.b2bpic.net/premium-photo/t-bone-aged-wagyu-porterhouse-grilled-beef-steak-with-spices-herbs_114941-725.jpg?id=13752956", imageAlt: "Premium A5 Wagyu Beef" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/raw-meat-slices-topped-with-herbs-salt_140725-1838.jpg?id=6227664", imageAlt: "Elegant Steakhouse Dining" },
+            { imageSrc: "http://img.b2bpic.net/free-photo/juicy-steak-medium-rare-beef-with-spices_2829-5642.jpg?id=6676080", imageAlt: "Teppanyaki Chef Performance" },
             { imageSrc: "http://img.b2bpic.net/free-photo/salad-with-mozarella-tomato-slices-with-basilic-herbal-dressing_114579-3682.jpg", imageAlt: "Beautifully Plated Dish" },
-            { imageSrc: "http://img.b2bpic.net/free-photo/glasses-table_1157-17815.jpg", imageAlt: "Premium Sake Selection" }
+            { imageSrc: "http://img.b2bpic.net/free-photo/closeup-food-styling-steak-rustic-style_53876-42887.jpg?id=3224596", imageAlt: "Premium Sake Selection" }
           ]}
           ariaLabel="Kobe Prime Japanese Steakhouse Hero Section"
         />
