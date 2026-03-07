@@ -77,7 +77,7 @@ export default function LandingPage() {
             { value: "25+", title: "Years of Excellence" },
             { value: "100%", title: "Authentic A5 Wagyu" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg?_wi=1"
           imageAlt="Kobe Prime Authentic Steakhouse Interior"
           mediaAnimation="slide-up"
           useInvertedBackground={true}
@@ -249,7 +249,7 @@ export default function LandingPage() {
           ]}
           mediaAnimation="slide-up"
           faqsAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg?_wi=2"
           imageAlt="Kobe Prime FAQ"
           ariaLabel="Kobe Prime FAQ"
         />
