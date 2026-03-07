@@ -11,7 +11,7 @@ import TestimonialCardSix from '@/components/sections/testimonial/TestimonialCar
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactCenter from '@/components/sections/contact/ContactCenter';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Flame, Award, Utensils, ChefHat, Star, HelpCircle, Calendar, Instagram, Wine2 } from 'lucide-react';
+import { Flame, Award, Utensils, ChefHat, Star, HelpCircle, Calendar, Instagram, Wine } from 'lucide-react';
 
 export default function LandingPage() {
   return (
@@ -21,7 +21,7 @@ export default function LandingPage() {
       borderRadius="soft"
       contentWidth="small"
       sizing="large"
-      background="floatingGradient"
+      background="circleGradient"
       cardStyle="soft-shadow"
       primaryButtonStyle="gradient"
       secondaryButtonStyle="radial-glow"
@@ -50,7 +50,7 @@ export default function LandingPage() {
           tag="Premium Wagyu"
           tagIcon={Flame}
           tagAnimation="slide-up"
-          background={{ variant: "floatingGradient" }}
+          background={{ variant: "sparkles-gradient" }}
           buttons={[
             { text: "Reserve Your Experience", href: "contact" },
             { text: "View Our Menu", href: "products" }
@@ -77,9 +77,10 @@ export default function LandingPage() {
             { value: "25+", title: "Years of Excellence" },
             { value: "100%", title: "Authentic A5 Wagyu" }
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg?_wi=1"
+          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg"
           imageAlt="Kobe Prime Authentic Steakhouse Interior"
           mediaAnimation="slide-up"
+          metricsAnimation="slide-up"
           useInvertedBackground={true}
           ariaLabel="About Kobe Prime Japanese Steakhouse"
         />
@@ -166,7 +167,7 @@ export default function LandingPage() {
             },
             {
               id: "3",              name: "Michiko Sato",              role: "Head Sommelier",              description: "Certified sommelier specializing in Japanese sake and wine pairings. Curator of our extensive beverage selection. Wine competition award winner.",              imageSrc: "http://img.b2bpic.net/free-photo/bartender-looking-glass-red-wine_107420-65842.jpg",              imageAlt: "Michiko Sato",              socialLinks: [
-                { icon: Wine2, url: "#" },
+                { icon: Wine, url: "#" },
                 { icon: Award, url: "#" }
               ]
             },
@@ -249,7 +250,7 @@ export default function LandingPage() {
           ]}
           mediaAnimation="slide-up"
           faqsAnimation="slide-up"
-          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg?_wi=2"
+          imageSrc="http://img.b2bpic.net/free-photo/chef-holding-beef-steak-stone-with-grilled-peppers-fire_140725-500.jpg"
           imageAlt="Kobe Prime FAQ"
           ariaLabel="Kobe Prime FAQ"
         />
